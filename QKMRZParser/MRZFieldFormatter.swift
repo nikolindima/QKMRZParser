@@ -73,8 +73,8 @@ class MRZFieldFormatter {
     
     private func sex(from string: String) -> String? {
         switch string {
-        case "M": return "MALE"
-        case "F": return "FEMALE"
+        case "M": return "M"
+        case "F": return "F"
         case "<": return "UNSPECIFIED" // X
         default: return nil
         }
